@@ -32,7 +32,7 @@
         },
         {
             "name": "Spotify Artist",
-            "description": "Displays Spotify artist data it in a clean, interactive way.",
+            "description": "Display Spotify artist data it in a clean, interactive way.",
             "author": "Isaac Jarrells",
             "github": "https://github.com/Nemmz/spotify_data_ui",
             "url": "https://artist.erau.cloud"
