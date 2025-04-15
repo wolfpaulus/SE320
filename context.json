@@ -1,0 +1,41 @@
+{
+    "title": "SE320 Software Construction",
+    "subtitle": "Computer Science Education",
+    "description": "College of Engineering Embry Riddle",
+    "site_url": "https://se320.erau.cloud",
+    "author": "Wolf Paulus",
+    "email": "wolf@paulus.com",
+    "keywords": "Computer Science Education, Computer Science, Embry Riddle",
+    "copyright_year": "2025",
+    "jinjas": [
+        "index"
+    ],
+    "site_dir": "public",
+    "templates_dir": "templates",
+    "static_dirs": [
+        "assets"
+    ],
+    "projects": [
+        {
+            "name": "Elden Ring Leaderboard",
+            "description": "Pulling leaderboard data for 3 different Elden Ring Speedrun categories",
+            "author": "Autumn Peterson",
+            "github": "https://github.com/autumnpeterson24/peterson-web-ui",
+            "url": "https://eldenring.erau.cloud"
+        },
+        {
+            "name": "Currency Converter",
+            "description": "Convert between different currencies using real-time exchange rate data.",
+            "author": "Alec Hoelscher",
+            "github": "https://github.com/A13CH/Currency_Converter",
+            "url": "https://currencies.erau.cloud"
+        },
+        {
+            "name": "Spotify Artist",
+            "description": "Displays Spotify artist data it in a clean, interactive way.",
+            "author": "Isaac Jarrells",
+            "github": "https://github.com/Nemmz/spotify_data_ui",
+            "url": "https://artist.erau.cloud"
+        }
+    ]
+}
