@@ -15,27 +15,84 @@
     "static_dirs": [
         "assets"
     ],
-    "projects": [
-        {
-            "name": "Elden Ring Leaderboard",
-            "description": "Pulling leaderboard data for 3 different Elden Ring Speedrun categories",
-            "author": "Autumn Peterson",
-            "github": "https://github.com/autumnpeterson24/peterson-web-ui",
-            "url": "https://eldenring.erau.cloud"
-        },
-        {
-            "name": "Currency Converter",
-            "description": "Convert between different currencies using real-time exchange rate data.",
-            "author": "Alec Hoelscher",
-            "github": "https://github.com/A13CH/Currency_Converter",
-            "url": "https://currencies.erau.cloud"
-        },
-        {
-            "name": "Spotify Artist",
-            "description": "Display Spotify artist data it in a clean, interactive way.",
-            "author": "Isaac Jarrells",
-            "github": "https://github.com/Nemmz/spotify_data_ui",
-            "url": "https://artist.erau.cloud"
-        }
-    ]
+    "categories": {
+        "Most Creative Project Idea": [
+            {
+                "name": "Elden Ring Leaderboard",
+                "description": "Pulling leaderboard data for 3 different Elden Ring Speedrun categories",
+                "author": "Autumn Peterson",
+                "github": "https://github.com/autumnpeterson24/peterson-web-ui",
+                "url": "https://autumnbeers.uk",
+                "container": "ghcr.io/autumnpeterson24/peterson-web-ui:latest"
+            },
+            {
+                "name": "Near-Earth-Objects",
+                "description": "Showing daily near-Earth object data.",
+                "author": "David Close",
+                "github": "https://github.com/DavidClose0/Near-Earth-Objects",
+                "url": "https://near-earth-objects.streamlit.app",
+                "container": "ghcr.io/davidclose0/near-earth-objects:latest"
+            },
+            {
+                "name": "Yu-Gi-Oh Card Viewer",
+                "description": "Displaying the name, type of card, and an image of the card.",
+                "author": "Samuel Van Winkle",
+                "github": "https://github.com/SamuelVanWinkle/se320_webui",
+                "url": "https://se320webui-eqerrtjyspyrdrdvy7citd.streamlit.app",
+                "container": "ghcr.io/samuelvanwinkle/se320_webui:latest"
+            }
+        ],
+        "Best User Interface": [
+            {
+                "name": "Spotify Artist",
+                "description": "Display Spotify artist data it in a clean, interactive way.",
+                "author": "Isaac Jarrells",
+                "github": "https://github.com/Nemmz/spotify_data_ui",
+                "url": "https://spotifydataui-wy2w2rhbky8kam3e66jmiv.streamlit.app",
+                "container":"ghcr.io/nemmz/spotify_data_ui:latest"
+            },
+            {
+                "name": "Mars Rover Explorer",
+                "description": "Explore real imagery sent from NASA's Curiosity and Perseverance rovers on Mars.",
+                "author": "Harneet Randhawa",
+                "github": "https://github.com/h-randhawa/mars-rover-streamlit",
+                "url": "https://mars-rover-app-beeabctsgqv5seegv3lmba.streamlit.app",
+                "container":"ghcr.io/h-randhawa/mars-rover-streamlit:latest"
+            },
+            {
+                "name": "Movie Info Fetcher ",
+                "description": "Display Movie information based on user input",
+                "author": "Daniil Gorshkov",
+                "github": "https://github.com/gorshkod/movie-info-fetcher",
+                "url": "https://movie-info-fetcher.streamlit.app",
+                "container":"ghcr.io/gorshkod/movie-info-fetcher:latest"
+            }
+        ],
+        "Best Github Repository": [
+            {
+                "name": "Currency Converter",
+                "description": "Convert between different currencies using real-time exchange rate data.",
+                "author": "Alec Hoelscher",
+                "github": "https://github.com/A13CH/Currency_Converter",
+                "url": "https://103parking.com",
+                "container":"ghcr.io/a13ch/currency_converter:latest"
+            },
+            {
+                "name": "HTTP Cat Quiz",
+                "description": "Fun and educational quiz designed to test your knowledge of HTTP response codes",
+                "author": "Hayden Hargreaves",
+                "github": "https://github.com/haydenhargreaves/httpCatsGame",
+                "url": "https://httpcats.streamlit.app",
+                "container":"ghcr.io/haydenhargreaves/httpcatsgame:master"
+            },
+            {
+                "name": "Coronal Mass Ejection",
+                "description": "Display information on Coronal Mass Ejections",
+                "author": "Taylor Hancock",
+                "github": "https://github.com/SteelStarling/ERAU-SE320_Homework06",
+                "url": "https://starling-donkireader.streamlit.app",
+                "container":"ghcr.io/steelstarling/erau-se320_homework06:latest"
+            }
+        ]
+    }
 }

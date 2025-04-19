@@ -117,3 +117,13 @@ h3::before {
 	line-height: 2rem;
 	font-size: 0.8rem;
 }
+.hdr {
+	display: flex;
+	align-items: baseline;
+	justify-content: center;
+	padding: 5%;
+	color: snow;
+	text-align: center;
+	line-height: 3.2rem;
+	font-size: 3rem;
+}

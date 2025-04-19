@@ -11,18 +11,22 @@
 <body>
 	<h1>{{ title }}</h1>
 	<h2>{{ description }}</h2>
-
-	<ol style="--length: {{ projects|length }}" role="list">
-	{% for project in projects %}
+	{% for hdr, winners in categories.items() %}
+	<h1 class="hdr">{{ hdr }}</h1>
+	<ol style="--length: {{ winners|length }}" role="list">
+		{% for project in winners %}
 		<li style="--i: {{ loop.index }}">
 			<h3>{{ project.name }}</h3>
 			<p>{{ project.description }}</p>
 			<p>Created by: <b>{{ project.author }}</b> |
-			<a href="{{ project.github}}" target="_blank">View Source Code</a> |
-			<a href="{{ project.url }}" target="_blank">Launch Project</a></p>
+				<a href="{{ project.github}}" target="_blank">View Source Code</a> |
+				<a href="{{ project.url }}" target="_blank">Launch Project</a>
+			</p>
 		</li>
-	{% endfor %}
+		{% endfor %}
 	</ol>
+	{% endfor %}
 	<p class="copy">&copy; 2025 &bull; College of Engineering &bull; Embry-Riddle Aeronautical University</p>
 </body>
+
 </html>
